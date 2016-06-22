@@ -11,7 +11,7 @@ public class FirstClass
 {
 	public static void main(String args[]) throws Exception
 	{
-		String details = ".... Ronak has made this ....";
+		String details = ".... Ronak has made this ....";          // Here you can give whatever message you want.
 		
 		ByteArrayOutputStream out = QRCode.from(details).to(ImageType.JPG).stream();
 		
